@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": true,
+      "label": "hii"
+    },
+    {
+      "id": 2,
+      "checked": true,
+      "label": "Hello"
+    },
+    {
+      "id": 3,
+      "checked": true,
+      "label": "Then"
+    },
+    {
+      "id": 4,
+      "checked": true,
+      "label": "Now"
+    },
+    {
+      "id": 5,
+      "checked": true,
+      "label": "Whatever"
+    },
+    {
+      "id": 6,
+      "checked": true,
+      "label": "hence"
+    }
+  ]
+}

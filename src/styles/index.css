@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 22px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: darkgray;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  max-width: 500px;
+  /* border: 1px solid cyan; */
+  margin: auto;
+}
+
+header {
+  /* height: 100px; */
+  width: 100%;
+  background-color: #696969;
+  color: aliceblue;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 15px 0;
+}
+
+main {
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+section {
+  min-height: 50px;
+  width: 100%;
+  padding: 0.25em;
+  font-size: 15px;
+  background-color: whitesmoke;
+  color: #696969;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  outline: none;
+}
+
+section>button {
+  height: 30px;
+  width: fit-content;
+  padding: 0 10px;
+  background-color: transparent;
+  color: grey;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid turquoise;
+  font-size:small;
+}
+
+section>button:hover, 
+section>button:focus {
+  background-color: turquoise;
+  color: whitesmoke;
+  cursor: pointer;
+
+}
+
+footer {
+  min-height: 50px;
+  width: 100%;
+  padding: 0.25em;
+  font-size: 15px;
+  background-color: #696969;
+  color: aliceblue;
+  display: grid;
+  place-content: center;
+  border-radius: 0 0 10px 10px;
+}

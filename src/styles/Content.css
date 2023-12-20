@@ -1,0 +1,70 @@
+/* main{
+    background-color: whitesmoke;
+} */
+
+ul {
+    width: 100%;
+    max-height: 100%;
+    list-style: none;
+    padding: .25rem;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+ul li::before {
+    content: "\200B";
+}
+
+.data-list-items {
+    height: 50px;
+    margin: .25rem 0;
+    padding: 0 .25rem;
+    background-color: #eee;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.data-list-items input[type='checkbox'] {
+    text-align: center;
+    width: 2.5rem;
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    height: 2.5rem;
+    min-height: 48px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+.data-list-items>label {
+    font-size: 0.75rem;
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.close-icon{
+    margin-left: 0.5rem;
+    color: steelblue;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    display: flex;
+    background: transparent;
+}
+
+.close-icon :hover, .close-icon :focus{
+    color: red;
+}
+
+/* .edit-save-icon{
+    color:steelblue;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+}
+
+.edit-save-icon :hover, .edit-save-icon :focus{
+    color: #000089;
+} */

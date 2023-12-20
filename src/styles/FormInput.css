@@ -1,0 +1,8 @@
+.Form-Inputs{
+
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    background: whitesmoke;
+    justify-content: space-between;
+}

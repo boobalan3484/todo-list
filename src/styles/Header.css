@@ -1,0 +1,33 @@
+.time-stamp {
+    width: 80%;
+    font-size: medium;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom:16px ;
+    margin:0 auto;
+  }
+  
+  
+  .App-title{
+    background:linear-gradient(10deg, #eeff00, #00e5ff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 600;
+    width: fit-content;
+    /* animation: animateTitle 1.8s linear infinite; */
+    background-size: 200%;
+    font-size: xx-large;
+    /* margin:0 auto; */
+    margin: 5% 0 0 10%;
+  
+  }
+  
+  /* @keyframes animateTitle {
+    0%{
+      background-position: 0;
+    }
+    100%{
+      background-position: 100%;
+    }
+  } */
